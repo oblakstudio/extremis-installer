@@ -1,0 +1,17 @@
+{
+    "name": "oblak/extremis-installer",
+    "version": "1.0",
+    "bin": [
+        "bin/extremis"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Extremis\\Installer\\": "src/"
+        }
+    },
+    "require": {
+        "illuminate/console": "~5.6",
+        "symfony/console": "4.0.8",
+        "symfony/process": "~4.4"
+    }
+}
